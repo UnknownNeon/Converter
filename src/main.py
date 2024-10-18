@@ -62,7 +62,7 @@ class Home(QWidget):
 
     def settings(self):
         self.setWindowTitle("Converter ")
-        self.setGeometry(300,300 , 800, 800 )
+        self.setGeometry(300,300 , 800, 300 )
 
     #Button Events : 
     def button_events(self):
