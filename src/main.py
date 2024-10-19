@@ -26,7 +26,7 @@ class Home(QWidget):
         self.option_2_label = QLabel("To : Decimal Only for now" )
 
         self.option_1.addItems(index_1)
-        self.option_2.addItems(["decimal"])
+        self.option_2.addItems(index_1)
 
         self.title = QLabel("Hellow World ")
 
@@ -96,7 +96,7 @@ class Home(QWidget):
 
          text_converted = self.setup_exe(to_conver,selected_1,selected_2)
 
-         self.output_box_1.setText(text_converted)
+         self.output_box_1.setText(text_converted.strip())
 
 
         
